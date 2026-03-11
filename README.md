@@ -16,7 +16,35 @@ This project:
 - Git and GitHub for version control
 
 ## File Structure 
-
+wids-wildfire-survival/
+│
+├── data/                      
+│   ├── train.csv
+│   └── test.csv
+│
+├── notebooks/                
+│   ├── 01_data_preprocessing.ipynb
+│   ├── 02_data_visualization.ipynb
+│   ├── 03_model_training.ipynb
+│   └── 04_results_analysis.ipynb
+│
+├── src/                      
+│   ├── __init__.py
+│   └── features.py            
+│
+├── results/                  
+│   └── submission.csv
+│
+├── test_cases/               
+│   ├── test_case_1.md
+│   ├── test_case_2.md
+│   └── test_case_3.md
+│
+├── requirements.txt           
+├── README.md                 
+├── CHANGELOG.md              
+└── .gitignore      
+           
 ## Installation
 
 Clone the repository:
