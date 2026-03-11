@@ -18,3 +18,25 @@ This project:
 ## File Structure 
 
 ## Installation
+
+Clone the repository:
+
+git clone https://github.com/jaren55/BTT-Grid-WiDS-Project.git
+cd BTT-Grid-WiDS-Project
+
+Install dependencies:
+
+pip install -r requirements.txt
+
+## Running the Project
+
+Launch Jupyter Notebook:
+
+jupyter notebook
+
+Run the notebooks in order:
+
+1. notebooks/01_data_preprocessing.ipynb
+2. notebooks/02_data_visualization.ipynb
+3. notebooks/03_model_training.ipynb
+4. notebooks/04_results_analysis.ipynb
