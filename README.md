@@ -68,3 +68,18 @@ Run the notebooks in order:
 2. notebooks/02_data_visualization.ipynb
 3. notebooks/03_model_training.ipynb
 4. notebooks/04_results_analysis.ipynb
+
+## Gradio Interface
+
+You can also launch an interactive Gradio app for single-event forecasts and batch CSV scoring:
+
+```bash
+pip install -r requirements.txt
+python app.py
+```
+
+The app:
+- Uses the project's survival-analysis ensemble logic from the training notebook
+- Trains on `data/train_processed.csv` the first time a prediction is requested
+- Supports manual entry of the six model inputs used by `src/features.py`
+- Supports batch scoring of a processed CSV such as `data/test_processed.csv`
